@@ -8,7 +8,7 @@ CREATE TABLE Patient (
     full_name VARCHAR(100) NOT NULL,
     date_of_birth DATE NOT NULL,
     gender ENUM('Male', 'Female', 'Other') NOT NULL,
-    phone_number VARCHAR(15) UNIQUE NOT NULL,
+    phone_number VARCHAR(15) UNIQUE NOT 
     email VARCHAR(100) UNIQUE,
     address TEXT
 );
